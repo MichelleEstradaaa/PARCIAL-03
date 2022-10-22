@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="hoja.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body background="FONDO.jpg">
+  <div class="container">
+    <div class="title">Registro</div>
+    <br>
+    <span class="details">Categoria</span>
+    <br>
+    <select name="select" class="cat">
+        <option value="value1"selected>Seleccionar</option>
+        <option value="value2" >Individual</option>
+        <option value="value3">Corporativo</option>
+      </select>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nombre</span>
+            <input type="text" placeholder="Nombre" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Apellidos</span>
+            <input type="text" placeholder="Apellidos" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="example@mail.com" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Contraseña</span>
+            <input type="text" placeholder="Ingrese contraseña" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirmar Contraseña</span>
+            <input type="text" placeholder="**********" required>
+          </div>
+        </div>
+        <label><input type="checkbox" id="cbox1" value="first_checkbox"> Terminos de servicio</label><br>
+
+        <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">
+            ¡Quiero recibir información!
+        </label>
+        <div class="button">
+          <input type="submit" value="Registro">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
